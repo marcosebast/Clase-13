@@ -1,0 +1,24 @@
+header{
+    color: $secondary;
+    font-family: $title;
+}
+
+header p{
+    font-family: $body;
+}
+
+$condition: "banana";
+
+@if ($condition == "banana") {
+    .header{
+        h1{
+            background-color: $primary;
+        }
+    }
+} @else {
+    .header{
+        h1{
+            background-color: $secondary;
+        }
+    }
+}

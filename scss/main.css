@@ -1,1 +1,36 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  color: #60D394;
+  font-family: "Libre Baskerville", serif;
+}
+
+header p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.header h1 {
+  background-color: #EE6055;
+}
+
+.main-index .tercera {
+  display: flex;
+}
+.main-index .tercera .div-1 {
+  background-color: #EE6055;
+  height: 150px;
+}
+.main-index .tercera .div-2 {
+  background-color: #60D394;
+  height: 75px;
+}
+.main-index .tercera .div-3 {
+  background-color: #AAF683;
+  height: 300px;
+}/*# sourceMappingURL=main.css.map */
